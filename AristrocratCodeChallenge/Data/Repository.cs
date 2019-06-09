@@ -20,6 +20,7 @@ namespace AristrocratCodeChallenge.Data
             }
         }
 
+        //this function returns a list of Employees based on the Id of the company that they belong to
         public List<Employee> GetEmployeeByDepartment(int companyId)
         {
             using(SqlConnection conn = Connection)
